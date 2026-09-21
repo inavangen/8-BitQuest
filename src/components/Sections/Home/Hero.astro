@@ -9,15 +9,58 @@
 // READ BLOG / SAY HI CTAs point at the real /blog/ and /contact/ routes.
 import HeroPanel from "@components/Sections/Global/HeroPanel.astro";
 import portfolioData from "@config/portfolioData.json";
+import avatar from "@images/about-avatar.png";
+
 
 const { tagline, heading, intro } = portfolioData.home;
+const { shortBio, meta: profileMeta } = portfolioData.profile;
+const meta = [
+  { label: "Location", value: profileMeta.location },
+  { label: "Role", value: profileMeta.role },
+] as const;
 ---
 
-<HeroPanel headingId="hero-heading" tagline={tagline} heading={heading} intro={intro}>
+<HeroPanel headingId="hero-heading" tagline={tagline} heading={heading}>  
+
+  <!--profile --> 
+  <div class="flex flex-col gap-6 sm:flex-row sm:items-start">
+    <div
+      class="bg-accent border-border shadow-pixel size-32 shrink-0 overflow-clip border-4 sm:size-40"
+    >
+      <img
+        src={avatar.src}
+        width={avatar.width}
+        height={avatar.height}
+        alt="Pixel-art portrait of the site author"
+        loading="lazy"
+        decoding="async"
+        class="size-full object-cover"
+      />
+    </div>
+
+    <div class="flex flex-1 flex-col gap-4">
+      <p class="text-muted-foreground text-base leading-relaxed">{shortBio}</p>
+
+      <dl class="flex flex-col gap-2 text-sm">
+        {
+          meta.map((row) => (
+            <div class="flex items-center justify-between gap-4">
+              <dt class="text-foreground font-bold uppercase">{row.label}</dt>
+              <dd class="text-muted-foreground uppercase">{row.value}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </div>
+
+   <!--buttons --> 
   <div class="flex flex-col gap-4 pt-2 sm:flex-row">
     <a href="/blog/" class="pixel-btn pixel-btn--blue px-5 py-4 text-sm uppercase sm:text-base">
-      My Projects
+      See Proejcts
     </a>
-    <a href="/contact/" class="pixel-btn px-5 py-4 text-sm uppercase sm:text-base"> Say Hi </a>
+    <a href="/contact/" class="pixel-btn px-5 py-4 text-sm uppercase sm:text-base"> Let's talk </a>
   </div>
+
+   
 </HeroPanel>

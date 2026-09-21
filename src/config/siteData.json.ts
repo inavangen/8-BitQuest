@@ -9,7 +9,7 @@ const siteData = {
 
   author: {
     name: "Ina Vangen",
-    email: "you@example.com",
+    email: "ina.vangen@gmail.com",
     // Ships EMPTY on purpose: BaseHead only emits `twitter:creator` when this is set, so an unfilled
     // template omits the tag rather than attributing every page to a handle that doesn't exist.
     twitter: "",

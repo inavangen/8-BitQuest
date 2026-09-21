@@ -7,18 +7,24 @@ import { type PortfolioDataProps } from "./types/configDataTypes";
 // portfolio) — keep it consistent if you rewrite.
 const portfolioData = {
   profile: {
-    heading: "About me",
+    heading: "Biography",
     tagline: "Dev 01",
     role: "Designer & Web Developer",
     years: "10+",
     bio: [
-      "Ever since I was a small kid, I’ve always been a creative, loving to draw, create and try new things In 2012 I slowly started my career as a freelance as graphic designer, after finishing my year at Arbeiderbevegelsen Folkehøgskole, mostly working on projects for local newspapers, creating ads and building and maintaining webpages for small businesses and organizations. I especially worked a lot with design and communication towards event promotion and social media, developing brand narratives, managing media relations, and creating content that engages with different audiences. In 2016, after finishing my degree in ‘Informatics: Design, use & interactions’, I continued my career as a UX designer. I was driven by wanting to help people by making products easier and more accessible. I wanted to transforming their needs into services, products, and experiences, that worked for them. Since then, I’ve worked with in numerous different fields, such as gaming, tv & streaming, the travel industry, online marketplaces, internal tools, and design systems Besides UX design, I’ve also worked on several side projects, such as creating and hosting design conferences, focusing on building a community and sharing knowledge among fellow designers, I’ve also built a few web apps such as the translator app Trønderomat. You can read more about my other projects here.",
+      "Ever since I was a small kid, I’ve always been a creative, loving to draw, create and try new things.",
+      "In 2012 I slowly started my career as a freelance as graphic designer, after finishing my year at Arbeiderbevegelsen Folkehøgskole, mostly working on projects for local newspapers, creating ads and building and maintaining webpages for small businesses and organizations. I especially worked a lot with design and communication towards event promotion and social media, developing brand narratives, managing media relations, and creating content that engages with different audiences.", 
+      "In 2016, after finishing my degree in ‘Informatics: Design, use & interactions’, I continued my career as a UX designer. I was driven by wanting to help people by making products easier and more accessible. I wanted to transforming their needs into services, products, and experiences, that worked for them.", 
+      "Since then, I’ve worked with in numerous different fields, such as gaming, tv & streaming, the travel industry, online marketplaces, internal tools, and design systems", 
+      "Besides UX design, I’ve also worked on several side projects, such as creating and hosting design conferences, focusing on building a community and sharing knowledge among fellow designers, I’ve also built a few web apps such as the translator app Trønderomat. You can read more about my other projects here.",
+      " ",
     ],
     shortBio:
       "I‘m driven by creating things that makes life easier and more accessible for people. From solving problems, building communities to just creating something that just “feels right”.",
     meta: {
       location: "Berlin/Oslo",
       role: "Designer & Web Developer",
+      favorite: "Ramen",
     },
     skills: [
       { label: "UX-design", pct: 95 },
