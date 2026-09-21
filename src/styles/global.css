@@ -37,7 +37,7 @@
        to carry all the separation). The light neutrals are tuned literals here on purpose:
        the shared navy ramp's light end leans violet (it is cut for dark-mode text), so light
        mode gets its own cleaner blue. Accents stay tokenised. */
-    --background: #d6e3f4; /* clean light retro-blue desktop (was #e1e1f7 lavender) */
+    --background: #e8e8e8; /* clean light retro-blue desktop (was #e1e1f7 lavender) */
     --foreground: var(--color-base-900); /* #101222 navy ink */
     --card: #ffffff; /* crisp white window panel — pops against the blue ground */
     --card-foreground: var(--color-base-900);

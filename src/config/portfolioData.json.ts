@@ -7,24 +7,23 @@ import { type PortfolioDataProps } from "./types/configDataTypes";
 // portfolio) — keep it consistent if you rewrite.
 const portfolioData = {
   profile: {
+    heading: "About me",
     tagline: "Dev 01",
-    heading: "The Full-Stack Dev",
-    role: "Full-Stack",
-    years: "8+",
+    role: "Designer & Web Developer",
+    years: "10+",
     bio: [
-      "Welcome to the mainframe. I'm a full-stack developer with 8+ years of experience building scalable web applications, APIs, and tools. This profile serves as a chronological log of my projects, open-source contributions, and the systems I've shipped.",
-      "I'm passionate about clean code, automated testing, and shipping fast. I write about modern frontend patterns, backend architecture, and the tools that keep my workflow efficient.",
+      "Ever since I was a small kid, I’ve always been a creative, loving to draw, create and try new things In 2012 I slowly started my career as a freelance as graphic designer, after finishing my year at Arbeiderbevegelsen Folkehøgskole, mostly working on projects for local newspapers, creating ads and building and maintaining webpages for small businesses and organizations. I especially worked a lot with design and communication towards event promotion and social media, developing brand narratives, managing media relations, and creating content that engages with different audiences. In 2016, after finishing my degree in ‘Informatics: Design, use & interactions’, I continued my career as a UX designer. I was driven by wanting to help people by making products easier and more accessible. I wanted to transforming their needs into services, products, and experiences, that worked for them. Since then, I’ve worked with in numerous different fields, such as gaming, tv & streaming, the travel industry, online marketplaces, internal tools, and design systems Besides UX design, I’ve also worked on several side projects, such as creating and hosting design conferences, focusing on building a community and sharing knowledge among fellow designers, I’ve also built a few web apps such as the translator app Trønderomat. You can read more about my other projects here.",
     ],
     shortBio:
-      "I'm a developer who builds things with pixels, code, and a healthy dose of nostalgia. I write about the tech I use, the tools I love, and the retro systems that still inspire me.",
+      "I‘m driven by creating things that makes life easier and more accessible for people. From solving problems, building communities to just creating something that just “feels right”.",
     meta: {
-      location: "The Internet",
-      role: "Full Stack Dev",
-      favorite: "8-Bit Chiptunes",
+      location: "Berlin/Oslo",
+      role: "Designer & Web Developer",
     },
     skills: [
-      { label: "Frontend", pct: 95 },
-      { label: "Backend", pct: 90 },
+      { label: "UX-design", pct: 95 },
+      { label: "Graphic Design", pct: 90 },
+      { label: "Web Development", pct: 60 },
     ],
   },
 
@@ -34,10 +33,10 @@ const portfolioData = {
   },
 
   home: {
-    tagline: "Player 1",
-    heading: "Welcome, Player One",
+    tagline: " ",
+    heading: "Hello there, Welcome!",
     intro:
-      "Level up your knowledge with my latest dev logs, tutorials, and retro tech explorations. Press start to begin your journey.",
+      "I’m a multidisciplinary creative, designer and developer. I‘m driven by creating things that makes life easier and more accessible for people. From solving problems, building communities to just creating something that just “feels right",
   },
 
   contact: {

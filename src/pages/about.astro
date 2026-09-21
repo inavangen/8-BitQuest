@@ -2,9 +2,9 @@
 // About (/about/). Thin route shell: owns BaseLayout + SEO and composes the Figma "Pixel Quests -
 // About Me" frame (node 5:278) from Sections/About. One shared `.site-container` wraps every section
 // (aligned with the header/footer); `gap-*` gives the vertical rhythm — the same shell as index.astro.
-import Achievements from "@components/Sections/About/Achievements.astro";
+// import Achievements from "@components/Sections/About/Achievements.astro";
 import DevProfile from "@components/Sections/About/DevProfile.astro";
-import Gear from "@components/Sections/About/Gear.astro";
+// import Gear from "@components/Sections/About/Gear.astro";
 import Hero from "@components/Sections/About/Hero.astro";
 import SkillTree from "@components/Sections/About/SkillTree.astro";
 import siteData from "@config/siteData.json";
@@ -19,7 +19,6 @@ import BaseLayout from "@layouts/BaseLayout.astro";
     <Hero />
     <DevProfile />
     <SkillTree />
-    <Achievements />
-    <Gear />
   </div>
 </BaseLayout>
+

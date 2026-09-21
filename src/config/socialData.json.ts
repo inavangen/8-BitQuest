@@ -33,10 +33,10 @@ export const socialPlatforms = {
   },
   // `author.twitter` wins when set, because a handle is more specific than a sameAs host match.
   twitter: {
-    label: "Twitter/X",
+    label: "Behance",
     icon: "twitter",
-    match: ["x.com", "twitter.com"],
-    fallback: "https://x.com/",
+    match: ["behance.com"],
+    fallback: "https://www.behance.net/inavangen",
   },
   youtube: {
     label: "YouTube",
