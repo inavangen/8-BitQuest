@@ -20,9 +20,15 @@ import { Reveal } from "@components/ui/reveal";
 
 type Tone = "success" | "secondary" | "info";
 const skills: readonly { name: string; icon: PixelIconName; tone: Tone }[] = [
-  { name: "JavaScript", icon: "code", tone: "success" },
-  { name: "Python", icon: "flash", tone: "secondary" },
+  { name: "HTML/CSS", icon: "code", tone: "success" },
+  { name: "Javaspript", icon: "flash", tone: "success" },
   { name: "React", icon: "component", tone: "info" },
+  { name: "Design Systems", icon: "component", tone: "info" },
+  { name: "User Research", icon: "component", tone: "info" },
+  { name: "Social Meda", icon: "flash", tone: "secondary" },
+  { name: "Public Relations", icon: "flash", tone: "secondary" },
+  { name: "Visual design", icon: "component", tone: "info" },
+  { name: "C#", icon: "flash", tone: "success" },
 ];
 
 // Whole static classes per tone (never interpolate a class name — invisible to the compiler). The
@@ -42,7 +48,7 @@ const toneBorder: Record<Tone, string> = {
 ---
 
 <Reveal as="section" aria-labelledby="skill-tree-heading" class="flex flex-col gap-6">
-  <SectionHeading id="skill-tree-heading" title="Tech Stack" />
+  <SectionHeading id="skill-tree-heading" title="Skills" />
 
   <ul class="grid gap-6 sm:grid-cols-3">
     {

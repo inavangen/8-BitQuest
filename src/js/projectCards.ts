@@ -19,8 +19,8 @@ export type ProjectStatus = "complete" | "in-progress";
  */
 export function statusMeta(status: ProjectStatus): { label: string; variant: BadgeVariant } {
   return status === "complete"
-    ? { label: "[Complete]", variant: "success" }
-    : { label: "[In Progress]", variant: "warning" };
+    ? { label: "Web Dev", variant: "success" }
+    : { label: "Design", variant: "info" };
 }
 
 /**
