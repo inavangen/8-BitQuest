@@ -24,7 +24,7 @@
   --color-primary-500: #41a6f6;
   --color-primary-600: #2b8ae0;
   --color-primary-700: #1f6cc0;
-  --color-primary-800: #114e90;
+  --color-primary-800: #2c2c2c; 
   --color-primary-900: #00395e;
   --color-primary-950: #003354;
 
@@ -65,11 +65,11 @@
      (`-100`/`-200`). LIGHT is the reverse: the light end for surfaces (`-100` page, `-50` cards,
      `-200` muted) + the deep end for ink (`-900`). No separate light palette — light mode is a
      cool inversion of dark, not a cream "paper" theme. */
-  --color-base-50: #f4f4fb;
-  --color-base-100: #e1e1f7;
-  --color-base-200: #bfc7d3;
-  --color-base-300: #89919c;
-  --color-base-400: #5c6377;
+  --color-base-50: #f7f5f2;
+  --color-base-100: #ebe7e2;
+  --color-base-200: #d3cdc5;
+  --color-base-300: #a8a19a;
+  --color-base-400: #78716a;
   --color-base-500: #3f4358;
   --color-base-600: #323445;
   --color-base-700: #272939;
@@ -103,8 +103,8 @@
      border and its shadow read as one gentler mark). Falls back to black if the var is ever missing.
        shadow-pixel     → cards, buttons, badges, stats strip
        shadow-pixel-lg  → the hero panel */
-  --shadow-pixel: 4px 4px 0 0 var(--pixel-shadow, #000);
-  --shadow-pixel-lg: 8px 8px 0 0 var(--pixel-shadow, #000);
+  --shadow-pixel: 3px 3px 0 0 var(--pixel-shadow, #000);
+  --shadow-pixel-lg: 6px 6px 0 0 var(--pixel-shadow, #000);
 
   /* animation tokens — the Marquee primitive's seamless-loop scroll (see ui/marquee/Marquee.astro).
      `--marquee-duration` is the per-instance speed knob (set by the `speed` variant). Each track
