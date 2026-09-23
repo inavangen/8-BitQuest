@@ -1,26 +1,33 @@
 ---
-title: "Real-Time Chat Application"
-cardTitle: "Building a Real-Time Chat App"
-description: "Implemented WebSockets, Redis pub/sub, and automated testing for a production retro chat platform."
-tagline: "A high-frequency websocket terminal built to emulate instant packet switching. Powering sub-10ms packet broadcasts across memory clusters with zero lost frames."
+title: "BUILDING AN ATOMIC DESIGN SYSTEM"
+cardTitle: "BUILDING AN ATOMIC DESIGN SYSTEM"
 status: "complete"
-moduleId: "#01_CHAT"
+description: "The team lacked a design system, to unify the organization’s look-and-feel, brand and optimize efficiency. The out-of-the-box solutions they had previously tried didn’t fully meet their needs, leading to a inconsistent design, no reusability and slower development process."
+tagline: "Building a customised design system to work for multiple teams"
+moduleId: "-"
 order: 1
-thumbnail: "../../../assets/images/demo/project-retro-chat.png"
-thumbnailAlt: "A pixel-art chat application interface labelled Chatting App v1.0"
-tech: ["React", "Node.js", "WebSockets", "Redis"]
+thumbnail: "../../../assets/images/project-images/design-system-workflow.png"
+thumbnailAlt: "empty"
+tech: ["Design Systems", "Storybook", "Figma", "UX"]
 specs:
-  - { label: "Frontend", value: "React" }
-  - { label: "Backend", value: "Node.js" }
-  - { label: "Transport", value: "WebSocket" }
-  - { label: "Routing", value: "Redis Pub/Sub" }
+  - { label: "Category", value: "Design System" }
+  - { label: "Tools", value: "Figma, Storybook, Tailwind" }
+  - { label: "Domain", value: "Video Gaming" }
 features:
-  - lead: "Bi-directional pipelines"
-    text: "Node.js WS modules serving instant client-to-server frames."
-  - lead: "Redis backplane"
-    text: "Event broadcasting across memory segments to sustain system integrity."
-  - lead: "Full test suite"
-    text: "Automated mock loops asserting system state over high stress simulations."
+  - lead: "Designing new and improving existing UI components"
+    text: "to be more flexible and accessible."
+  - lead: "Consistent usage"
+    text: "of iconography and typography"
+  - lead: "Implementing shared libraries, themes and naming conventions for variables Figma. "
+    text: "This allowed us to easily toggle between different modes, such as light and dark mode, with just a few clicks."
+  - lead: "Consistent usage"
+    text: "of iconography and typography"
+  - lead: "Storybook integration"
+    text: "Defined detailed behavior and interaction patterns"
+  - lead: "to create multi-dimensional, flexible components that allowed users to effortlessly customize size, layout, and styling"
+    text: "for components, such as table cell and spreadsheet behaviour, mapping out keyboard interaction"
+  - lead: "Using a Atomic design apporach" 
+    text: "to create components that could be nested within other components, providing greater modularity."
 archCaption: "[Packet Switching Engine]"
 challenge:
   title: "Threat: Buffer Congestion"
@@ -30,7 +37,10 @@ solution:
   body: "Decoupled system connections via a pub/sub layer. Messages queue and route through asynchronous Redis buffers, maintaining low memory footprints."
 ---
 
-The ultimate objective was building an instantly reactive networking terminal. Combining React
-custom hooks with Node.js WebSocket protocol handlers, we bypass HTTP overhead for true duplex
-datastreams. Redis pub/sub operates as the backplane event router, letting us scale to thousands of
-concurrent guest nodes seamlessly.
+My teams lacked a tailored design system, to unify the organization’s look-and-feel, brand and optimize 
+efficiency. The out-of-the-box solutions they had previously tried didn’t fully meet their needs, leading 
+to a inconsistent design, no reusability and slower development process.
+
+What was done: Designed and rebuilt a more scalable and flexible design system, based on the 
+Atomic Design principles and with foundations and inspiration from Tailwind, Shadcn and Ant Design. 
+The new system included for instance:

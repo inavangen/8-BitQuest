@@ -42,7 +42,7 @@ const FIELDS = [
   {
     name: "name",
     label: "Your Name",
-    placeholder: "e.g. PLAYER ONE",
+    placeholder: "e.g. NAME NAMESON",
     as: "input",
     type: "text",
     autocomplete: "name",
@@ -53,7 +53,7 @@ const FIELDS = [
     label: "Email Address",
     // example.com, never an invented domain: the Astro theme-catalogue review strictly enforces it,
     // since a made-up domain can resolve to a real site and draw unwanted contact.
-    placeholder: "e.g. PLAYER1@EXAMPLE.COM",
+    placeholder: "e.g. NAMESON@EXAMPLE.COM",
     as: "input",
     type: "email",
     autocomplete: "email",
@@ -62,7 +62,7 @@ const FIELDS = [
   {
     name: "subject",
     label: "Subject",
-    placeholder: "e.g. TUTORIAL INQUIRY",
+    placeholder: "e.g. CASE STUDY INQUIRY",
     as: "input",
     type: "text",
     autocomplete: "off",
@@ -70,8 +70,8 @@ const FIELDS = [
   },
   {
     name: "message",
-    label: "Message Transmission",
-    placeholder: "TYPE YOUR TRANSMISSION HERE...",
+    label: "Message",
+    placeholder: "YOUR MESSAGE HERE...",
     as: "textarea",
     autocomplete: "off",
     maxlength: 5000,
@@ -80,7 +80,7 @@ const FIELDS = [
 
 // SHAPE only (see the header note): the pixel field surface + focus/invalid rings. No border colour.
 const fieldClass = [
-  "bg-accent border-border rounded-none border-4 px-4 text-sm placeholder:text-muted-foreground",
+  "bg-accent border-border rounded-none border-3 px-4 text-sm placeholder:text-muted-foreground",
   "aria-[invalid=true]:ring-3 aria-[invalid=true]:ring-error/60",
 ].join(" ");
 ---
