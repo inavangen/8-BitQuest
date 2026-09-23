@@ -30,17 +30,17 @@
 
   /* SECONDARY — the retro pink. `-200` #ffb2ba (SAY HI button / accents), `-600` #892037
      (LORE badge bg), `-800` #670120 (dark text on pink). */
-  --color-secondary-50: #fff1f3;
-  --color-secondary-100: #ffdfe3;
-  --color-secondary-200: #ffb2ba;
-  --color-secondary-300: #ff9da8;
-  --color-secondary-400: #f4677a;
-  --color-secondary-500: #d83f56;
-  --color-secondary-600: #892037;
-  --color-secondary-700: #6d182b;
-  --color-secondary-800: #670120;
-  --color-secondary-900: #45001a;
-  --color-secondary-950: #2c000d;
+  --color-secondary-50: #fff5eb;
+  --color-secondary-100: #ffe8cc;
+  --color-secondary-200: #ffcc99;
+  --color-secondary-300: #ffab5e;
+  --color-secondary-400: #ff8c1a;
+  --color-secondary-500: #ff7300;
+  --color-secondary-600: #cc4d00;
+  --color-secondary-700: #a33d00;
+  --color-secondary-800: #7a2e00;
+  --color-secondary-900: #521f00;
+  --color-secondary-950: #331300;
 
   /* SUCCESS — the retro green. The one STATUS colour promoted to a full ramp (warning/error stay
      semantic-only until something needs them) because the pixel SEND MESSAGE button needs fixed,
