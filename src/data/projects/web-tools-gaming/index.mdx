@@ -1,27 +1,31 @@
 ---
-title: "Database Index Optimization"
+title: "Web Tools for Mobile Gaming"
 description: "Analyzing nested query plans, rebuilding indexes, and reducing latency for write-heavy high-traffic database engines."
-tagline: "A deep tuning pass on a write-heavy engine — reading query plans by hand and rebuilding indexes until the tail latency collapsed."
+tagline: "Creating efficient, secure, and user-friendly tools that allow live-operations teams to safely create, set up and manage various mobile games."
 status: "in-progress"
 heroImage: "../../../assets/images/project-images/tools.png"
 heroImageAlt: "empty"
-moduleId: "#06_DB"
+moduleId: "-"
 order: 6
-thumbnail: ""../../../assets/images/project-images/tools.png"
+thumbnail: "../../../assets/images/project-images/tools.png"
 thumbnailAlt: "empty"
-tech: ["PostgreSQL", "Redis", "SQL", "Database"]
+tech: ["Figma", "Redis", "SQL", "Database"]
 specs:
-  - { label: "Engine", value: "PostgreSQL" }
-  - { label: "Cache", value: "Redis" }
-  - { label: "Language", value: "SQL" }
-  - { label: "Workload", value: "Write-Heavy" }
+  - { label: "Domain", value: "Mobile Gaming" }
+  - { label: "Category", value: "Intenal tooling" }
+  - { label: "Tools", value: "Figma" }
+
 features:
-  - lead: "Plan analysis"
-    text: "EXPLAIN output is parsed to flag sequential scans on hot paths."
-  - lead: "Index rebuilds"
-    text: "Partial and covering indexes replace bloated B-trees on the busiest tables."
-  - lead: "Cache offload"
-    text: "Redis absorbs read spikes that would otherwise thrash the write path."
+  - lead: "Introduced automatic data imports between systems"
+    text: " the need for users to manually copy and paste 100+ IDs, which was prone to human-errors."
+  - lead: "New nested segmentation features"
+    text: "allowing more advanced and fine tuned segmentation"
+  - lead: "New A/B testing tools"
+    text: "for more rapid testing of new ideas."
+  - lead: "Improved keyboard friendly UI"
+    text: "for all forms, allowing faster navigation."
+  - lead: "Template-based forms"
+    text: "to allow user to reuse parts of previously created forms."
 archCaption: "[Query Planner]"
 challenge:
   title: "Threat: Write Amplification"
@@ -31,7 +35,16 @@ solution:
   body: "Partial indexes cover only the queried subset, cutting write overhead while keeping reads fast. (Tuning ongoing.)"
 ---
 
-A write-heavy Postgres engine was missing its latency budget under load. We read the query plans by
-hand, replaced bloated indexes with partial and covering ones, and moved read spikes onto a Redis
-cache so they no longer competed with writes. Tail latency is already down sharply, with further
-tuning in progress.
+Background: The Live Operations team of the company’s mobile games needed efficient and safe tools to operate and manage the games. Given the complexity of the games’ infrastructure, there were no suitable out-of-the-box solutions that met their needs, which is why my team was taskted to build their own, customized tools.
+
+What was done: My responsibility was to design tools that ensure that our users could manage the games efficiently and securely, ultimately creating a better user experience.
+
+To truly understand our users, continous rounds of user research – including interviews, observations, and user shadowing, were conducted. This helped my team gain insights into our user’s workflows: Identify pain points, and understand their needs.
+
+I proceeded to created personas, user journey maps, and various, potential solutions, working closely with the backend and infratructure teams to craft ideas that aligned with both user needs, the game’s infratructure and our business goals. Throughout the process, we made sure to involve users regularly, gathering their feedback to refine and improve what we built.
+
+Outcome and results: The solutions we’ve implemented focuses on creating simple, user-friendly forms, streamlining and merging systems, and removing workflow obstacles and “double work” to save the user’s time. A few example features we created:
+
+As a result, users are spending significantly less time on tasks, giving them more time to focus on other priorities. This has led to overall higher satisfaction and reduced frustration, and a smoother overall experience. Thanks to better validation systems, human errors and the risk of in-game errors has been greatly reduced.
+
+PS: All pictures are only for illustration of concept and mockups. Due to confidentiality agreements, real screenshots cannot be disclosed.
