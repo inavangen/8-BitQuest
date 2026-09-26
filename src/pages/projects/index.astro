@@ -19,6 +19,6 @@ const cards = (await getSortedProjects()).map(toProjectCard);
 >
   <div class="site-container flex flex-col gap-10 py-8 md:gap-12 md:py-12">
     <ProjectsHero />
-    <CardGrid headingId="all-systems-heading" title="All Systems" items={cards} />
+    <CardGrid headingId="all-systems-heading" title="All Projects" items={cards} />
   </div>
 </BaseLayout>

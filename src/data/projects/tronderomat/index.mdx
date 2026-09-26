@@ -1,11 +1,12 @@
 ---
-title: "Trønderomat"
-description: "Translating Norwegian to Trøndersk."
-tagline: "This is for all the Norwegian-speaking folks out there. “Trønderomat” is a simple web-based application that is fully coded and developed by myself. It let’s your translate from Norwegian (bokmål) to my local dialect ‘Trøndersk’. The application was originally created back in 2016 for Android as part of my studies, and I decided to revive it this year as a fun 10-year anniversary."
-status: "in-progress"
+title: "Tr0nderomat"
+cardTitle: "Tr0nderomat"
+description: "Translating Norwegian to Tr0ndersk."
+tagline: "This is for all the Norwegian-speaking folks out there. “Tr0nderomat” is a simple web-based application that is fully coded and developed by myself. It let’s your translate from Norwegian (bokmaal) to my local dialect ‘Tr0ndersk’. The application was originally created back in 2016 for Android as part of my studies, and I decided to revive it this year as a fun 10-year anniversary."
+status: "complete"
 heroImage: "../../../assets/images/project-images/tronderomat.png"
 heroImageAlt: "empty"
-moduleId: "#04_OBS"
+moduleId: "-"
 order: 4
 thumbnail: "../../../assets/images/project-images/tronderomat.png"
 thumbnailAlt: "A pixel-art sprite editor with a colour palette and canvas grid"
@@ -14,8 +15,13 @@ specs:
   - { label: "Domain", value: "Translation" }
   - { label: "Tech", value: "React, HTML/CSS" }
 features:
-  - lead: "Live metrics"
-    text: "Prometheus scrapes stream into a React grid refreshed on a sub-second tick."
+  - lead: "Server components"
+    text: "Content renders on the server and streams to the client with no hydration cost."
+  - lead: "Incremental builds"
+    text: "Only changed pages rebuild on publish, keeping deploys seconds long."
+  - lead: "Edge caching"
+    text: "Rendered pages sit at the edge, served from the region nearest each reader."
+archCaption: "[Render Pipeline]"
 challenge:
   title: "Threat: Cardinality Explosion"
   body: "High-dimensional labels ballooned the metric series count until dashboard queries timed out."
@@ -24,10 +30,10 @@ solution:
   body: "A recording-rule layer pre-aggregates hot queries and caps label cardinality at ingest."
 ---
 
-The original idea came from the fact that ‘Trøndersk’ can for some, be quite a hard dialect to understand, even for other Norwegians. And I experienced, when I first moved to Oslo, that many people didn’t understand me and that I had to adapt my language to make myself understood. This app was meant as a “fun comment” to this fact, and is not meant as a serious translator by any means.
+The original idea came from the fact that ‘Tr0ndersk’ can for some, be quite a hard dialect to understand, even for other Norwegians. And I experienced, when I first moved to Oslo, that many people didn’t understand me and that I had to adapt my language to make myself understood. This app was meant as a “fun comment” to this fact, and is not meant as a serious translator by any means.
 
-“If you don’t understand Trøndersk, fear not! There is an app for that”.
+“If you don’t understand Tr0ndersk, fear not! There is an app for that”.
 
-You can check out the Trønderomat here
+You can check out the Tr0nderomat here
 
 The app is currently in “Beta”, and I’m working on my free time to improve the translations. The app is written in React, and if you’re interested in knowing how I built it code, please contact me.
