@@ -46,7 +46,7 @@ const portfolioData = {
   },
 
   contact: {
-    prompt: "Want to chat about a project, a retro build, or just share a favorite game?",
+    prompt: "Interested in connecting, collaborating or chat about a spesific project?",
   },
 } satisfies PortfolioDataProps;
 

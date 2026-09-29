@@ -3,9 +3,9 @@ import { type SiteDataProps } from "./types/configDataTypes";
 // Site metadata. Edit with your project's details.
 const siteData = {
   name: "Ina Vangen",
-  title: "Ina Vangen — portfolio",
+  title: "Ina Vangen — prject portfolio",
   description:
-    "Just a portfolio of my latest projects and quests",
+    "My portfolio of the latest projects and case studies",
 
   author: {
     name: "Ina Vangen",
