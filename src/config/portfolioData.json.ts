@@ -46,7 +46,7 @@ const portfolioData = {
   },
 
   contact: {
-    prompt: "Interested in connecting, collaborating or chat about a spesific project?",
+    prompt: "Interested in connecting, share an idea, or want to know more about a certain project?",
   },
 } satisfies PortfolioDataProps;
 
